@@ -2,8 +2,8 @@ public class Puppy {
     int puppyAge;
 
     public Puppy(String name) {
-        // è¿™ä¸ªæ„é€ å™¨ä»…æœ‰ä¸€ä¸ªå‚æ•°ï¼šname
-        System.out.println("å°ç‹—çš„åå­—æ˜¯ : " + name);
+        // Õâ¸ö¹¹ÔìÆ÷½öÓĞÒ»¸ö²ÎÊı£ºname
+        System.out.println("Ğ¡¹·µÄÃû×ÖÊÇ : " + name);
     }
 
     public void setAge(int age) {
@@ -11,18 +11,18 @@ public class Puppy {
     }
 
     public int getAge() {
-        System.out.println("å°ç‹—çš„å¹´é¾„ä¸º : " + puppyAge);
+        System.out.println("Ğ¡¹·µÄÄêÁäÎª : " + puppyAge);
         return puppyAge;
     }
 
     public static void main(String[] args) {
-      /* åˆ›å»ºå¯¹è±¡ */
+      /* ´´½¨¶ÔÏó */
         Puppy myPuppy = new Puppy("tommy");
-      /* é€šè¿‡æ–¹æ³•æ¥è®¾å®šage */
+      /* Í¨¹ı·½·¨À´Éè¶¨age */
         myPuppy.setAge(2);
-      /* è°ƒç”¨å¦ä¸€ä¸ªæ–¹æ³•è·å–age */
+      /* µ÷ÓÃÁíÒ»¸ö·½·¨»ñÈ¡age */
         myPuppy.getAge();
-      /*ä½ ä¹Ÿå¯ä»¥åƒä¸‹é¢è¿™æ ·è®¿é—®æˆå‘˜å˜é‡ */
-        System.out.println("å˜é‡å€¼ : " + myPuppy.puppyAge);
+      /*ÄãÒ²¿ÉÒÔÏñÏÂÃæÕâÑù·ÃÎÊ³ÉÔ±±äÁ¿ */
+        System.out.println("±äÁ¿Öµ : " + myPuppy.puppyAge);
     }
 }

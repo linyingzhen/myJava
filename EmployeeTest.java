@@ -3,18 +3,18 @@ import java.io.*;
 public class EmployeeTest {
 
     public static void main(String args[]) {
-      /* ä½¿ç”¨æ„é€ å™¨åˆ›å»ºä¸¤ä¸ªå¯¹è±¡ */
+      /* Ê¹ÓÃ¹¹ÔìÆ÷´´½¨Á½¸ö¶ÔÏó */
         Employee empOne = new Employee("RUNOOB1");
         Employee empTwo = new Employee("RUNOOB2");
 
-        // è°ƒç”¨è¿™ä¸¤ä¸ªå¯¹è±¡çš„æˆå‘˜æ–¹æ³•
+        // µ÷ÓÃÕâÁ½¸ö¶ÔÏóµÄ³ÉÔ±·½·¨
         empOne.empAge(26);
-        empOne.empDesignation("é«˜çº§ç¨‹åºå‘˜");
+        empOne.empDesignation("¸ß¼¶³ÌĞòÔ±");
         empOne.empSalary(1000);
         empOne.printEmployee();
 
         empTwo.empAge(21);
-        empTwo.empDesignation("èœé¸Ÿç¨‹åºå‘˜");
+        empTwo.empDesignation("²ËÄñ³ÌĞòÔ±");
         empTwo.empSalary(500);
         empTwo.printEmployee();
     }

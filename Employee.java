@@ -6,31 +6,31 @@ public class Employee {
     String designation;
     double salary;
 
-    // Employee ç±»çš„æ„é€ å™¨
+    // Employee ÀàµÄ¹¹ÔìÆ÷
     public Employee(String name) {
         this.name = name;
     }
 
-    // è®¾ç½®ageçš„å€¼
+    // ÉèÖÃageµÄÖµ
     public void empAge(int empAge) {
         age = empAge;
     }
 
-    /* è®¾ç½®designationçš„å€¼*/
+    /* ÉèÖÃdesignationµÄÖµ*/
     public void empDesignation(String empDesig) {
         designation = empDesig;
     }
 
-    /* è®¾ç½®salaryçš„å€¼*/
+    /* ÉèÖÃsalaryµÄÖµ*/
     public void empSalary(double empSalary) {
         salary = empSalary;
     }
 
-    /* æ‰“å°ä¿¡æ¯ */
+    /* ´òÓ¡ĞÅÏ¢ */
     public void printEmployee() {
-        System.out.println("åå­—:" + name);
-        System.out.println("å¹´é¾„:" + age);
-        System.out.println("èŒä½:" + designation);
-        System.out.println("è–ªæ°´:" + salary);
+        System.out.println("Ãû×Ö:" + name);
+        System.out.println("ÄêÁä:" + age);
+        System.out.println("Ö°Î»:" + designation);
+        System.out.println("Ğ½Ë®:" + salary);
     }
 }

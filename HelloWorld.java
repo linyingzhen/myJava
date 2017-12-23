@@ -1,9 +1,9 @@
 public class HelloWorld {
-    /* ç¬¬ä¸€ä¸ªJavaç¨‹åº
-     * å®ƒå°†æ‰“å°å­—ç¬¦ä¸² Hello World
+    /* µÚÒ»¸öJava³ÌĞò
+     * Ëü½«´òÓ¡×Ö·û´® Hello World
      */
     public static void main(String[] args) {
-        System.out.println("Hello World"); // æ‰“å° Hello World
+        System.out.println("Hello World"); // ´òÓ¡ Hello World
 
 
     }
